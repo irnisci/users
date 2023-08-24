@@ -1,29 +1,31 @@
-# gitusers
+# GitHub User Info App
 
-This template should help get you started developing with Vue 3 in Vite.
+Dies ist eine einfache Webanwendung, die es ermöglicht, GitHub-Benutzerinformationen anzuzeigen, einschließlich ihres Profilbilds und ihrer öffentlichen Repositories.
 
-## Recommended IDE Setup
+## Funktionen
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Geben Sie den GitHub-Benutzernamen ein und klicken Sie auf "Daten abrufen" oder drücken Sie die Eingabetaste, um die Benutzerdaten anzuzeigen.
+- Zeigt das Profilbild des Benutzers, den Namen und die Anzahl der öffentlichen Repositories an.
+- Listet die öffentlichen Repositories des Benutzers mit Namen und Beschreibung auf.
 
-## Customize configuration
+## Verwendung
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Geben Sie den gewünschten GitHub-Benutzernamen in das Eingabefeld ein.
+2. Klicken Sie auf den "Daten abrufen" Button oder drücken Sie die Eingabetaste, um die Benutzerinformationen anzuzeigen.
+3. Die Benutzerdaten, einschließlich des Profilbilds, werden angezeigt. Unterhalb werden die öffentlichen Repositories aufgelistet.
 
-## Project Setup
+## Technologien
 
-```sh
-npm install
-```
+- Vue.js: Frontend-Framework für die Benutzeroberfläche.
+- GitHub API: Zum Abrufen von Benutzerdaten und Repositories.
 
-### Compile and Hot-Reload for Development
+## Installation
 
-```sh
-npm run dev
-```
+1. Klone dieses Repository auf deinen lokalen Computer.
+2. Navigiere im Terminal in das Projektverzeichnis.
+3. Führe `npm install` aus, um die Abhängigkeiten zu installieren.
+4. Starte die App mit `npm run serve`.
 
-### Compile and Minify for Production
+## Autor
 
-```sh
-npm run build
-```
+- Irnis Cibra
